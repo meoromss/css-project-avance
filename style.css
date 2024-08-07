@@ -4,7 +4,6 @@ header {
 
     img {
         width: 200px;
-
     }
 
     nav {
@@ -45,10 +44,7 @@ header {
     .enfant2-2 {
         width: 30%;
     }
-
 }
-
-
 
 .enfant3 {
     display: flex;
@@ -62,52 +58,61 @@ header {
         margin-right: 20px;
         border-radius: 10px;
     }
-        .enfant3-2 {
-            background-color: #2596be;
-            padding: 20px;
-            margin-right: 20px;
-            border-radius: 10px;
-        }
-            .enfant3-3 {
-                background-color: #1b2734;
-                padding: 20px;
-                margin-right: 20px;
-                border-radius: 10px;
-            }
+
+    .enfant3-2 {
+        background-color: #2596be;
+        padding: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .enfant3-3 {
+        background-color: #1b2734;
+        padding: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
 }
-.enfant4{
+
+.enfant4 {
     display: flex;
     width: 75%;
-    margin-left: 250px; 
+    margin-left: 250px;
     margin-top: 25px;
-  
-    .enfant4-1{
+
+    .enfant4-1 {
         color: #8adbd4;
         width: 35%;
     }
-    .enfant4-2{
+
+    .enfant4-2 {
         margin-left: 100px;
     }
 }
-.enfant5{
-   
+
+.enfant5 {
     display: flex;
     background-color: #dbf7f6;
     justify-content: center;
-    .enfant5-1{
-      margin-left: 75px;
+
+    .enfant5-1 {
+        margin-left: 75px;
     }
-    .enfant5-2{
+
+    .enfant5-2 {
         display: flex;
-       margin-top: 25px;
-       margin-left: 50px;
+        margin-top: 25px;
+        margin-left: 50px;
     }
-    .enfant5-2-1{
-        h1{
+
+    .enfant5-2-1 {
+        h1 {
             color: #8adbd4;
         }
+
         margin-left: 30px;
-        .enfant5-2-1-1{
+
+        .enfant5-2-1-1 {
             background-color: white;
             border-radius: 10px;
             padding: 7px;
@@ -115,34 +120,39 @@ header {
             color: #8adbd4;
             margin-bottom: 15px;
         }
-        .enfant5-2-1-2{
+
+        .enfant5-2-1-2 {
             background-color: white;
             border-radius: 10px;
             padding: 7px;
             text-align: center;
             color: #8adbd4;
-          
+
         }
     }
-    .enfant5-2-2{
+
+    .enfant5-2-2 {
         margin-right: 30px;
         width: 90%;
         margin-left: 30px;
         margin-top: 10px;
-        h2{
+
+        h2 {
             color: #8adbd4;
         }
-        .enfant5-2-2-1{
+
+        .enfant5-2-2-1 {
             background-color: white;
             border-radius: 10px;
-           padding: 25px;
+            padding: 25px;
             text-align: center;
             width: 50%;
             margin-bottom: 10px;
             color: #8adbd4;
         }
-        .enfant5-2-2-2{
-           
+
+        .enfant5-2-2-2 {
+
             background-color: white;
             border-radius: 10px;
             padding: 25px;
@@ -152,37 +162,76 @@ header {
             color: #8adbd4;
         }
     }
-    
+
 }
-.enfant6{
+
+.enfant6 {
     text-align: center;
-    h3{
+
+    h3 {
         color: #18d188;
     }
-    p{
+
+    p {
         color: #747474;
     }
 }
-.enfant7{
+
+.enfant7 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
- margin-left: 100px;
-    enfant7-1{
-        img{
-            border-radius: 20px 0 20px 0;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    justify-content: space-between;
+
+    enfant7-1 {
+        img {
+            border-radius: 20px
         }
-        display: flex;
-        padding: 5px;
-        padding-top: 20px;
+
+     
     }
-    .enfant7-2{
+
+    .enfant7-2 {
         display: flex;
         justify-content: space-around;
-        margin-right: 100px; 
+        width: 66%;
+       
         background-color: #F4F4F4;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 45px;
+
+        button {
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #3D83DE;
+        }
+    }
+}
+
+.enfant8 {
+    margin-bottom: 75px;
+
+    .enfant8-1 {
+        text-align: center;
+
+        h1 {
+            margin-top: 30px;
+            color: #3a3d40
+        }
+    }
+
+    .enfant8-2{
+        margin-bottom: 45px;
+        text-align: center;
         button{
             background-color: #3D83DE;
-            
-        }
-    }
+            border-radius: 5px;
+            margin-top: 15px;
+            height: 50px;
+        }
+    }
+}
+.enfant9{
+text-align: center;
 }
